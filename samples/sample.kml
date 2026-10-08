@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sample survey</name>
+    <Folder>
+      <name>Plots</name>
+      <Placemark>
+        <name>Plot A</name>
+        <description>Rectangular survey plot</description>
+        <ExtendedData>
+          <Data name="owner"><value>Survey Dept</value></Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                77.5946,12.9716,0 77.5996,12.9716,0 77.5996,12.9766,0 77.5946,12.9766,0 77.5946,12.9716,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Paths</name>
+      <Placemark>
+        <name>Boundary path</name>
+        <LineString>
+          <coordinates>
+            77.5946,12.9716,0 77.5970,12.9740,0 77.6000,12.9760,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Placemark>
+      <name>Survey marker</name>
+      <Point>
+        <coordinates>77.5970,12.9740,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
